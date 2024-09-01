@@ -69,7 +69,7 @@ export default function AdminLogin() {
         <h1 className="text-center text-[3rem] text-white p-14">Employee Managment System</h1>
 
         <div className="flex flex-col justify-center items-center mx-auto p-10 shadow-2xl w-1/4 absolute bg-white inset-x-0 rounded-md">
-          <h2 className="text-2xl mb-4 ms-[-20px] font-semibold"><i class="ri-user-fill"></i> Login</h2>
+          <h2 className="text-2xl mb-4 ms-[-20px] font-semibold"><i className="ri-user-fill"></i> Login</h2>
           <form onSubmit={handleSubmit} className="w-full max-w-sm">
             <input
               className="border py-1 px-3 w-full mb-4 outline-[#009487]"

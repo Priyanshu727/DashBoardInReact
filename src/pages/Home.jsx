@@ -14,7 +14,7 @@ export default function Home() {
               </div>
               <div className="homeBtn mt-[20px] inline-block rounded-lg">
                 <Link to={"/AdminLogin"} className="bg-[#377994] text-white py-3 px-[5rem] block rounded-lg">
-                  Click to Login <i class="ri-arrow-right-line"></i>
+                  Click to Login <i className="ri-arrow-right-line"></i>
                 </Link>
               </div>
             </div>
